@@ -1,6 +1,6 @@
 const seeResult = () => {
     let name1 = document.getElementById('name1');
-    let name1name = name1.value
+    let name1name = name1.innerText;
     let name2 = document.getElementById('name2');
     let name2name = name2.value;
 
@@ -37,5 +37,35 @@ const seeResult = () => {
         name2.value = ''
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
